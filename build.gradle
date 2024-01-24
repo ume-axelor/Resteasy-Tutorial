@@ -1,0 +1,21 @@
+plugins {
+    id 'java'
+    id 'application'
+    id 'war'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // https://mvnrepository.com/artifact/org.jboss.resteasy/resteasy-jaxrs
+    implementation group: 'org.jboss.resteasy', name: 'resteasy-jaxrs', version: '3.0.13.Final'
+    
+    // https://mvnrepository.com/artifact/org.jboss.resteasy/resteasy-jaxb-provider
+    implementation group: 'org.jboss.resteasy', name: 'resteasy-jaxb-provider', version: '3.0.13.Final'
+    
+    // https://mvnrepository.com/artifact/org.jboss.resteasy/resteasy-jackson-provider
+    implementation group: 'org.jboss.resteasy', name: 'resteasy-jackson-provider', version: '2.3.2.Final'
+}
+
