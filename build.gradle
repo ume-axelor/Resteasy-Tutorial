@@ -17,5 +17,14 @@ dependencies {
     
     // https://mvnrepository.com/artifact/org.jboss.resteasy/resteasy-jackson-provider
     implementation group: 'org.jboss.resteasy', name: 'resteasy-jackson-provider', version: '2.3.2.Final'
+    
+    // https://mvnrepository.com/artifact/org.hibernate/hibernate-core
+    implementation 'org.hibernate:hibernate-core:5.6.15.Final'
+	
+	// https://mvnrepository.com/artifact/org.postgresql/postgresql
+	implementation 'org.postgresql:postgresql:42.1.4'
+	
+	// https://mvnrepository.com/artifact/org.hibernate.javax.persistence/hibernate-jpa-2.1-api
+    implementation 'org.hibernate.javax.persistence:hibernate-jpa-2.1-api:1.0.2.Final'
 }
 
